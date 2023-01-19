@@ -26,10 +26,10 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://projektmanager.netlify.app/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>Demo</button>
                                 </a>
                                 <a href="http://hub.com/CBert2022/FE_TaskProject_Client">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>Code</button>
                                 </a>
                             </div>
                         </div>
@@ -47,10 +47,10 @@ const Work = () => {
                             </span>
                             <div className='pt-8 text-center'>
                                 <a href="https://cbert2022.github.io/Penguin-Game/">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Demo</button>
+                                    <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>Demo</button>
                                 </a>
                                 <a href="https://github.com/CBert2022/Penguin-Game">
-                                    <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>Code</button>
+                                    <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>Code</button>
                                 </a>
                             </div>
                         </div>
