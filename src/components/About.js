@@ -21,7 +21,7 @@ const About = ({language}) => {
                             Zusätzlich bringe ich Expertise aus über 5 Jahren im digitalen Projektmanagement mit. <br />
                             Ich habe sehr gute Kommunikations-Skills und bin absoluter Team Player. 
 
-                            </p> : <p className='text-xl'>
+                            </p> :  <p className='text-xl'>
                             I'm a full-stack developer, graduated from an intense full-time web development bootcamp. <br />
                            In addition I contribute my 5+ years expertise as professional digital project manager. <br />
                             Wich makes me an expert in communication and problem solving plus a very good team player.
