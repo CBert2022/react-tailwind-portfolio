@@ -3,7 +3,8 @@ import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll'
 
 
-const Navbar = () => {
+
+const Navbar = ({language, handleLanguage}) => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav)
 
@@ -13,6 +14,7 @@ const Navbar = () => {
             {/* menu */}
             {/* md:flex = anything above medium (760px) will be displayed */}
             <ul className='hidden md:flex'>
+
                 <li>
                     <Link className='text-2xl' to="home" smooth={true} duration={500}>
                         Home
@@ -20,23 +22,28 @@ const Navbar = () => {
                 </li>
                 <li>
                     <Link className='text-2xl' to="about" smooth={true} duration={500}>
-                        About
+                        {language ? "Über mich":"About"}
                     </Link>
                 </li>
                 <li>
                     <Link className='text-2xl' to="skills" smooth={true} duration={500}>
-                        Skills
+                    {language ? "Kompentenzen":"Skills"}
                     </Link>
                 </li>
                 <li>
                     <Link  className='text-2xl' to="work" smooth={true} duration={500}>
-                        Work
+                    {language ? "Referenzen":"Work"}
                     </Link>
                 </li>
                 <li>
                     <Link className='text-2xl' to="contact" smooth={true} duration={500}>
-                        Contact
+                    {language ? "Kontakt":"Contact"}
                     </Link>
+                </li>
+                <li>
+                    <button onClick={handleLanguage} className='text-2xl' smooth={true} duration={500}>
+                    { language ? "en" : "de" }   
+                    </button>
                 </li>
             </ul>
 
