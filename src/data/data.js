@@ -23,14 +23,5 @@ export const data=[
         image:PizzaImg,
         github:"https://github.com/CBert2022/lab-dom-pizza-builder",
         live:"https://cbert2022.github.io/lab-dom-pizza-builder/",
-    },
-    // {
-    //     id:4,
-    //     name:"React JS Application",
-    //     image:RealEst,
-    //     github:"",
-    //     live:"",
-    // },
-
-
+    }
 ]
