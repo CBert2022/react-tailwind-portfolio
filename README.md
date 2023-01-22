@@ -1,6 +1,6 @@
 # A JS Portfolio Website using React & Tailwind CSS.
 
-with a english german language switch.
+with an english german language switch.
 
 ### Screenshot Mobil
 
