@@ -1,5 +1,7 @@
 # A JS Portfolio Website using React & Tailwind CSS.
 
+with a english german language switch.
+
 ### Screenshot Mobil
 
 ![cbert2022 github io_react-tailwind-portfolio_(iPhone SE) (1)](https://user-images.githubusercontent.com/110911202/213916625-2a2d192f-e3ad-4b6c-9fb1-1942ece551da.png)
