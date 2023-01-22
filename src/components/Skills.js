@@ -12,7 +12,7 @@ const Skills = ({language}) => {
             {/* container */}
             <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
                 <div>
-                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'> {language ? "Kompentenzen":"Skills"}</p>
+                    <p className='text-4xl font-bold inline border-b-4 border-pink-600'> {language ? "Kompetenzen":"Skills"}</p>
                     <p className='py-4 text-xl'>{language ? "Hier sind einige Technologien mit denen ich gern arbeite:" : "Here are some technologies I like to work with:"}</p>
                 </div>
                 {/* icon container change grid from 3 to for when usen uncommented code*/}

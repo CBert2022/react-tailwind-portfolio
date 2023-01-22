@@ -1,50 +1,55 @@
 import React, { useState } from 'react' //rafce import snippet
 import { FaBars, FaTimes, FaGithub, FaLinkedin } from 'react-icons/fa'
 import { Link } from 'react-scroll'
+import LigthModeImg from "../assets/ligth-mode-s.png"
 
 
 
-const Navbar = ({language, handleLanguage}) => {
+const Navbar = ({ language, handleLanguage, handleMode, lightMode }) => {
     const [nav, setNav] = useState(false);
     const handleClick = () => setNav(!nav)
 
+
     return (
+        <>
         <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#0a192f] text-gray-300'>
             <p className='text-pink-600 text-4xl'>CR</p>
             {/* menu */}
             {/* md:flex = anything above medium (760px) will be displayed */}
             <ul className='hidden md:flex'>
-
                 <li>
-                    <Link className='text-2xl' to="home" smooth={true} duration={500}>
+                    <Link className='text-xl' to="home" smooth={true} duration={500}>
                         Home
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-2xl' to="about" smooth={true} duration={500}>
-                        {language ? "Über mich":"About"}
+                    <Link className='text-xl' to="about" smooth={true} duration={500}>
+                        {language ? "Über mich" : "About"}
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-2xl' to="skills" smooth={true} duration={500}>
-                    {language ? "Kompentenzen":"Skills"}
+                    <Link className='text-xl' to="skills" smooth={true} duration={500}>
+                        {language ? "Kompentezen" : "Skills"}
                     </Link>
                 </li>
                 <li>
-                    <Link  className='text-2xl' to="work" smooth={true} duration={500}>
-                    {language ? "Referenzen":"Work"}
+                    <Link className='text-xl' to="work" smooth={true} duration={500}>
+                        {language ? "Referenzen" : "Work"}
                     </Link>
                 </li>
                 <li>
-                    <Link className='text-2xl' to="contact" smooth={true} duration={500}>
-                    {language ? "Kontakt":"Contact"}
+                    <Link className='text-xl' to="contact" smooth={true} duration={500}>
+                        {language ? "Kontakt" : "Contact"}
                     </Link>
                 </li>
                 <li>
-                    <button onClick={handleLanguage} className='text-2xl' smooth={true} duration={500}>
-                    { language ? "en" : "de" }   
+                    <button onClick={handleLanguage} className='text-xl' smooth={true} duration={500}>
+                        {language ? "en" : "de"}
                     </button>
                 </li>
+                {/* <li>
+                    <img onClick={handleMode} src={LigthModeImg} alt="pink sun" className='h-6 w-6'/>
+                </li> */}
             </ul>
 
             {/* hamburger menu */}
@@ -97,6 +102,7 @@ const Navbar = ({language, handleLanguage}) => {
                 </ul>
             </div>
         </div>
+        </>
 
     )
 }
