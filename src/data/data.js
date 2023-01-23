@@ -5,7 +5,7 @@ import PizzaImg from '../assets/projects/pizza-builder.png'
 export const data=[
     {
         id:1,
-        name:"Full-Stack Application",
+        name:"Full-Stack Taskmanager Application",
         image:TaskmanagerImg,
         github:"http://hub.com/CBert2022/FE_TaskProject_Client",
         live:"https://projektmanager.netlify.app/",
