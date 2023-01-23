@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-tailwind-portfolio/static/css/main.6d9f5da6.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.bbc000a7.js",
+    "main.js": "/react-tailwind-portfolio/static/js/main.d016ccc4.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/penguin_game.png": "/react-tailwind-portfolio/static/media/penguin_game.9ffcedd7262c48d8cf6a.png",
     "static/media/pizza-builder.png": "/react-tailwind-portfolio/static/media/pizza-builder.6e398b4e373bcdeb8e76.png",
@@ -14,11 +14,11 @@
     "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tailwind-portfolio/index.html",
     "main.6d9f5da6.css.map": "/react-tailwind-portfolio/static/css/main.6d9f5da6.css.map",
-    "main.bbc000a7.js.map": "/react-tailwind-portfolio/static/js/main.bbc000a7.js.map",
+    "main.d016ccc4.js.map": "/react-tailwind-portfolio/static/js/main.d016ccc4.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.6d9f5da6.css",
-    "static/js/main.bbc000a7.js"
+    "static/js/main.d016ccc4.js"
   ]
 }
