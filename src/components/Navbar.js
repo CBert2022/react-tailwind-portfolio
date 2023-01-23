@@ -29,7 +29,7 @@ const Navbar = ({ language, handleLanguage, handleMode, lightMode }) => {
                 </li>
                 <li>
                     <Link className='text-xl' to="skills" smooth={true} duration={500}>
-                        {language ? "Kompentezen" : "Skills"}
+                        {language ? "Kompetezen" : "Skills"}
                     </Link>
                 </li>
                 <li>
