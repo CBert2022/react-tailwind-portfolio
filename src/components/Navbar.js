@@ -51,6 +51,7 @@ const Navbar = ({ language, handleLanguage, handleMode, lightMode }) => {
                     <img onClick={handleMode} src={LigthModeImg} alt="pink sun" className='h-6 w-6'/>
                 </li> */}
             </ul>
+            
 
             {/* hamburger menu */}
             <div onClick={handleClick} className='md:hidden z-10'>
