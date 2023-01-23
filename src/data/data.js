@@ -9,6 +9,7 @@ export const data=[
         image:TaskmanagerImg,
         github:"http://hub.com/CBert2022/FE_TaskProject_Client",
         live:"https://projektmanager.netlify.app/",
+        
     },
     {
         id:2,
