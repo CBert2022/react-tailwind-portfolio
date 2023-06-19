@@ -7,7 +7,7 @@ import FourOwlsImg from '../assets/projects/4owls.png'
 export const data=[
     {
         id:1,
-        name:"Configuration tool for Shopify E-Commerce Store",
+        name:"Side Cart For Configuration Tool In Shopify Store",
         image:FourOwlsImg, 
         live:"https://shop.4owls.de/products/g-o-black-bufframe",
     },
