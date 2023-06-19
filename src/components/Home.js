@@ -4,8 +4,7 @@ import { Link } from 'react-scroll';
 
 
 const Home = ({language}) => {
-    
-    
+
     return (
         <div name='home' className='w-full h-screen bg-[#0a192f]'>
             {/* container */}
@@ -27,6 +26,6 @@ const Home = ({language}) => {
 
         </div>
     )
+// }
 }
-
-export default Home
+export default Home;
