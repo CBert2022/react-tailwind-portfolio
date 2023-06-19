@@ -1,8 +1,10 @@
 {
   "files": {
-    "main.css": "/react-tailwind-portfolio/static/css/main.6d9f5da6.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.bbc000a7.js",
+    "main.css": "/react-tailwind-portfolio/static/css/main.b541e190.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.c50ee4bd.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Planter.png": "/react-tailwind-portfolio/static/media/Planter.49a8a6aabd98070860b2.png",
+    "static/media/4owls.png": "/react-tailwind-portfolio/static/media/4owls.622e4d76014c01bbf49f.png",
     "static/media/penguin_game.png": "/react-tailwind-portfolio/static/media/penguin_game.9ffcedd7262c48d8cf6a.png",
     "static/media/pizza-builder.png": "/react-tailwind-portfolio/static/media/pizza-builder.6e398b4e373bcdeb8e76.png",
     "static/media/taskmanager.png": "/react-tailwind-portfolio/static/media/taskmanager.201c99397fca6a5e6437.png",
@@ -13,12 +15,12 @@
     "static/media/css-1.png": "/react-tailwind-portfolio/static/media/css-1.69a82c2d9e45c933a9cb.png",
     "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tailwind-portfolio/index.html",
-    "main.6d9f5da6.css.map": "/react-tailwind-portfolio/static/css/main.6d9f5da6.css.map",
-    "main.bbc000a7.js.map": "/react-tailwind-portfolio/static/js/main.bbc000a7.js.map",
+    "main.b541e190.css.map": "/react-tailwind-portfolio/static/css/main.b541e190.css.map",
+    "main.c50ee4bd.js.map": "/react-tailwind-portfolio/static/js/main.c50ee4bd.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6d9f5da6.css",
-    "static/js/main.bbc000a7.js"
+    "static/css/main.b541e190.css",
+    "static/js/main.c50ee4bd.js"
   ]
 }
