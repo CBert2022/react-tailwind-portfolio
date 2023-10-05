@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-tailwind-portfolio/static/css/main.2932a135.css",
-    "main.js": "/react-tailwind-portfolio/static/js/main.bcb929c8.js",
+    "main.js": "/react-tailwind-portfolio/static/js/main.d29fe824.js",
     "static/js/787.1ed0c42c.chunk.js": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/CV_18092023.pdf": "/react-tailwind-portfolio/static/media/CV_18092023.25292727bdf2f80f8689.pdf",
     "static/media/Planter.png": "/react-tailwind-portfolio/static/media/Planter.49a8a6aabd98070860b2.png",
@@ -17,11 +17,11 @@
     "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/react-tailwind-portfolio/index.html",
     "main.2932a135.css.map": "/react-tailwind-portfolio/static/css/main.2932a135.css.map",
-    "main.bcb929c8.js.map": "/react-tailwind-portfolio/static/js/main.bcb929c8.js.map",
+    "main.d29fe824.js.map": "/react-tailwind-portfolio/static/js/main.d29fe824.js.map",
     "787.1ed0c42c.chunk.js.map": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2932a135.css",
-    "static/js/main.bcb929c8.js"
+    "static/js/main.d29fe824.js"
   ]
 }
