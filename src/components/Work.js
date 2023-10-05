@@ -35,20 +35,22 @@ const Work = ({language}) => {
                                 <span className="text-2xl font bold text-white tracking-wider ">
                                     {item.name}
                                 </span>
-                                <div className="pt-8 text-center ">
-                                    {/* eslint-disable-next-line */}
-                                    <a href={item.github} target="_blank">
-                                        <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
-                                            Code
-                                        </button>
-                                    </a>
-                                    {/* eslint-disable-next-line */}
-                                    <a href={item.live} target="_blank">
-                                        <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600' >
-                                            Live
-                                        </button>
-                                    </a>
-                                </div>
+                                <div className="pt-8 text-center">
+        {/* Conditionally render the GitHub button */}
+        {item.github ? (
+          <a href={item.github} target="_blank">
+            <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
+              Code
+            </button>
+          </a>
+        ) : null}
+        {/* eslint-disable-next-line */}
+        <a href={item.live} target="_blank">
+          <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
+            Live
+          </button>
+        </a>
+      </div>
                             </div>
                         </div>
                     ))}
