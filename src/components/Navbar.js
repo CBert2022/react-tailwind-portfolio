@@ -106,11 +106,11 @@ const Navbar = ({ language, handleLanguage, handleMode, lightMode }) => {
                                 Github <FaGithub size={30} />
                             </a>
                         </li>
-                        <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#047857]'>
+                        {/* <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#047857]'>
                             <a className='flex justify-between items-center w-full text-gray-300' href="#" onClick={openPDF}>
                                 CV <FaListAlt size={30} />
                             </a>
-                        </li>
+                        </li> */}
                     </ul>
                 </div>
             </div>

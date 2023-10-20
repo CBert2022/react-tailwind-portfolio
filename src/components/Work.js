@@ -1,7 +1,7 @@
 import React from 'react';
 import { data } from "../data/data";
 
-const Work = ({language}) => {
+const Work = ({ language }) => {
 
     // projects file
     const project = data;
@@ -36,21 +36,21 @@ const Work = ({language}) => {
                                     {item.name}
                                 </span>
                                 <div className="pt-8 text-center">
-        {/* Conditionally render the GitHub button */}
-        {item.github ? (
-          <a href={item.github} target="_blank">
-            <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
-              Code
-            </button>
-          </a>
-        ) : null}
-        {/* eslint-disable-next-line */}
-        <a href={item.live} target="_blank">
-          <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
-            Live
-          </button>
-        </a>
-      </div>
+                                    {/* Conditionally render the GitHub button */}
+                                    {item.github ? (
+                                        <a href={item.github} target="_blank">
+                                            <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
+                                                Code
+                                            </button>
+                                        </a>
+                                    ) : null}
+                                    {/* eslint-disable-next-line */}
+                                    <a href={item.live} target="_blank">
+                                        <button className='text-white group border-2 px-6 py-3 my-2 mx-2 hover:bg-pink-600 hover:border-pink-600'>
+                                            Live
+                                        </button>
+                                    </a>
+                                </div>
                             </div>
                         </div>
                     ))}
