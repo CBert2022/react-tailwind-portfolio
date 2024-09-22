@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/react-tailwind-portfolio/static/css/main.0b4332c7.css",
+    "main.js": "/react-tailwind-portfolio/static/js/main.987a7e1f.js",
+    "static/js/787.1ed0c42c.chunk.js": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js",
+    "static/media/Planter.png": "/react-tailwind-portfolio/static/media/Planter.49a8a6aabd98070860b2.png",
+    "static/media/4owls.png": "/react-tailwind-portfolio/static/media/4owls.622e4d76014c01bbf49f.png",
+    "static/media/penguin_game.png": "/react-tailwind-portfolio/static/media/penguin_game.9ffcedd7262c48d8cf6a.png",
+    "static/media/weather.png": "/react-tailwind-portfolio/static/media/weather.bff9c84cfd8093beb2a5.png",
+    "static/media/pizza-builder.png": "/react-tailwind-portfolio/static/media/pizza-builder.6e398b4e373bcdeb8e76.png",
+    "static/media/Newletter_tool.png": "/react-tailwind-portfolio/static/media/Newletter_tool.5deaef19a625a80e58d4.png",
+    "static/media/taskmanager.png": "/react-tailwind-portfolio/static/media/taskmanager.201c99397fca6a5e6437.png",
+    "static/media/react.png": "/react-tailwind-portfolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/node.png": "/react-tailwind-portfolio/static/media/node.952a9ea986dcfa5229ad.png",
+    "static/media/mongo.png": "/react-tailwind-portfolio/static/media/mongo.2a1528ddc31d4ce8518d.png",
+    "static/media/html.png": "/react-tailwind-portfolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/css-1.png": "/react-tailwind-portfolio/static/media/css-1.69a82c2d9e45c933a9cb.png",
+    "static/media/javascript.png": "/react-tailwind-portfolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/react-tailwind-portfolio/index.html",
+    "main.0b4332c7.css.map": "/react-tailwind-portfolio/static/css/main.0b4332c7.css.map",
+    "main.987a7e1f.js.map": "/react-tailwind-portfolio/static/js/main.987a7e1f.js.map",
+    "787.1ed0c42c.chunk.js.map": "/react-tailwind-portfolio/static/js/787.1ed0c42c.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0b4332c7.css",
+    "static/js/main.987a7e1f.js"
+  ]
+}
