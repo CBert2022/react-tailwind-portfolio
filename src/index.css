@@ -28,4 +28,8 @@
     margin-left: 20px;
     margin-top: 20px;
   }
+  .sql {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
 }
