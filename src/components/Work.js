@@ -41,7 +41,7 @@ const Work = ({ language }) => {
                 abzurufen. <br />
                 Technologien: Entwickelt mit ReactJS, Axios und der API von
                 OpenWeather.
-                <ul className="list">
+                <ul className="list ">
                   <li>
                     <p>
                       {" "}
