@@ -1,7 +1,6 @@
 import React from "react";
-import { data } from "../data/data";
 import screenshot from "../assets/projects/weather.png";
-import Shop from "../assets/projects/shop-min.png";
+import Shop from "../assets/projects/mockup_shop.png";
 
 const Work = ({ language }) => {
   return (
@@ -239,7 +238,7 @@ const Work = ({ language }) => {
                 </a>
               </div>
             </div>
-            <div className="flex justify-center items-start w-full  h-[250px] sm:h-[300px] border-2 border-gray-400 rounded-lg overflow-y-auto">
+            <div className="flex justify-center items-start w-full  h-[250px] sm:h-[300px] ">
               <img
                 src={Shop}
                 alt="Screenshot der Webseite"

@@ -7,7 +7,7 @@ import Mongo from "../assets/mongo.png";
 import Node from "../assets/node.png";
 import Php from "../assets/php.png";
 import MySQL from "../assets/mysql1.png";
-//import Wp from "../assets/wp.png";
+import Wp from "../assets/wp.png";
 
 const Skills = ({ language }) => {
   return (
@@ -26,7 +26,7 @@ const Skills = ({ language }) => {
           </p>
         </div>
         {/* icon container change grid from 3 to for when usen uncommented code*/}
-        <div className="w-full grid grid-cols-2 sm:grid-cols-3 gap-4 text-center py-8">
+        <div className="w-full grid grid-cols-3 sm:grid-cols-3 gap-4 text-center py-8">
           <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500">
             <img className="w-20 mx-auto" src={HTML} alt="HTML icon" />
             <p className="my-4">HTML</p>
@@ -63,10 +63,10 @@ const Skills = ({ language }) => {
             <img className="w-20 mx-auto sql" src={MySQL} alt="GitHub icon" />
             <p className="my-4">MySQL</p>
           </div>
-          {/* <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
+          <div className="shadow-md shadow-[#040c16] hover:scale-110 duration-500 ">
             <img className="w-20 mx-auto" src={Wp} alt="GitHub icon" />
             <p className="my-4">Worpress</p>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>
