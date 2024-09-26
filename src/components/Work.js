@@ -1,5 +1,5 @@
 import React from "react";
-import screenshot from "../assets/projects/weather.png";
+import Weather from "../assets/projects/mockup_weather.png";
 import Shop from "../assets/projects/mockup_shop.png";
 
 const Work = ({ language }) => {
@@ -22,9 +22,9 @@ const Work = ({ language }) => {
           </div>
           {/* Projekt 1 */}
           <div className="max-w-[1000px] w-full items-center  grid sm:grid-cols-2 gap-8 px-4">
-            <div className="flex justify-center items-start w-full h-[600px] sm:w-[200px] h-[400px] border-2 border-gray-400 rounded-lg overflow-y-auto">
+            <div className="flex justify-center items-start w-full  h-[250px] sm:h-[300px] ">
               <img
-                src={screenshot}
+                src={Weather}
                 alt="Screenshot der Webseite"
                 className="w-full h-auto object-cover object-top"
               />
