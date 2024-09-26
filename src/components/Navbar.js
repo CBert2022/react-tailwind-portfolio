@@ -101,6 +101,16 @@ const Navbar = ({ language, handleLanguage, handleMode, lightMode }) => {
               Contact
             </Link>
           </li>
+          <li>
+            <button
+              onClick={handleLanguage}
+              className="py-6 text-4xl"
+              smooth={true}
+              duration={500}
+            >
+              {language ? "en" : "de"}
+            </button>
+          </li>
         </ul>
 
         {/* social icons */}

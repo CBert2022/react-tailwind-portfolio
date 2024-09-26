@@ -1,50 +1,38 @@
-import TaskmanagerImg from "../assets/projects/taskmanager.png";
-import PenguinImg from "../assets/projects/penguin_game.png";
-import PizzaImg from "../assets/projects/pizza-builder.png";
-import PlanterImg from "../assets/projects/Planter.png";
-import FourOwlsImg from "../assets/projects/4owls.png";
-import NewletterImg from "../assets/projects/Newletter_tool.png";
-
 export const data = [
   {
-    id: 1,
     name: "React Weather App",
-    image: FourOwlsImg,
-    live: "https://shop.4owls.de/products/g-o-black-bufframe",
+    image: require("../assets/projects/weather.png"), // Dein Bildpfad
+    github: "https://github.com/CBert2022/react-weather-app",
+    live: "https://cbert2022.github.io/react-weather-app/",
+    description: {
+      en: `A user-friendly weather app that allows users to enter the name
+          of a city and retrieve comprehensive weather data.
+          Technologies: Developed with ReactJS, Axios, and the OpenWeather API.
+          - Current weather information based on the user's geolocation
+          - Detailed weather forecasts in 3-hour intervals
+          - 5-day forecast for the entered city or the current geolocation
+          - Ability to search for cities
+          - Information on temperature, humidity, wind speed, and corresponding weather icons
+          - Dynamic adjustment of the background and icons based on day or night, based on sunrise data.`,
+      de: `Eine benutzerfreundliche Wetter-App, die es Nutzern ermöglicht, den Namen einer Stadt einzugeben und umfassende Wetterdaten abzurufen.
+          Technologien: Entwickelt mit ReactJS, Axios und der API von OpenWeather.
+          - Aktuelle Wetterinformationen basierend auf der Geolokation des Nutzers
+          - Detaillierte Wettervorhersagen in 3-Stunden-Intervallen
+          - 5-Tage-Vorhersage für die eingegebene Stadt oder die aktuelle Geolokation
+          - Möglichkeit zur Stadtsuche
+          - Angaben zu Temperatur, Luftfeuchtigkeit, Windgeschwindigkeit und passende Wetter-Icons
+          - Dynamische Anpassung von Hintergrund und Icons je nach Tages- oder Nachtzeit, basierend auf den Sonnenaufgangsdaten.`,
+    },
   },
-  {
-    id: 2,
-    name: "Newletter Subscription Module",
-    image: NewletterImg,
-    github: "https://github.com/CBert2022/newletter-subscription-module",
-    live: "https://cbert2022.github.io/newletter-subscription-module/",
-  },
-  {
-    id: 3,
-    name: "Full-Stack Taskmanager Application",
-    image: TaskmanagerImg,
-    github: "http://github.com/CBert2022/FE_TaskProject_Client",
-    live: "https://projektmanager.netlify.app/",
-  },
-  {
-    id: 4,
-    name: "JavaScript Jump'n'Run Game",
-    image: PenguinImg,
-    github: "https://github.com/CBert2022/Penguin-Game",
-    live: "https://cbert2022.github.io/Penguin-Game/",
-  },
-  {
-    id: 5,
-    name: "DOM Pizza Builder",
-    image: PizzaImg,
-    github: "https://github.com/CBert2022/lab-dom-pizza-builder",
-    live: "https://cbert2022.github.io/lab-dom-pizza-builder/",
-  },
-  {
-    id: 6,
-    name: "ExpressJS, MongoDB, HTML, CSS Plant Care App",
-    image: PlanterImg,
-    github: "https://github.com/uuuuuvika/PLANTER",
-    live: "https://planter.cyclic.app/",
-  },
+  // {
+  //   name: "Second Project",
+  //   image: require("../assets/projects/secondProject.png"), // Platzhalter-Bildpfad
+  //   github: "https://github.com/CBert2022/second-project",
+  //   live: "https://cbert2022.github.io/second-project/",
+  //   description: {
+  //     en: `Description of the second project in English.`,
+  //     de: `Beschreibung des zweiten Projekts auf Deutsch.`,
+  //   },
+  // },
+  // Füge weitere Projekte hier hinzu
 ];
